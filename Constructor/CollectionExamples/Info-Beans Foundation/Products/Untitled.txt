@@ -1,0 +1,87 @@
+select rno,name,per from student;
+select rno,name,per from student where rno=5;
+select rno,name,per from student where rno=5 and per>=70;
+select rno,name,per from student where rno=5 or per>86;
+select * from student where not rno=5;
+select rno,name,per from student where not rno=4 and not per=86;
+select rno,name,per from student where not rno=4 or not per=54;
+select rno as Roll_No,name as Name,per as Percentage from student;
+select count(*) as Total_Records from student;
+select sum(per) as sum_of_per from student;
+select avg(per) as avg_of_per from student;
+select min(per) as min_per from student;
+select max(per) as min_per from student;
+select * from student limit 2;
+select * from student limit 2 offset 2;
+select * from student where per between 86 AND 87;
+select * from student where name like 'j%';
+select * from student where name like 'J_';
+ alter table student add column country varchar(45) not null;
+ desc student;
+alter table student drop column country1;
+show columns from student;
+ update student set country='usa' where rno=2;
+ select distinct country from student;
+select * from student order by per;
+select * from student order by per asc;
+select * from student order by per desc;
+ select country,count(country) as number from student group by country;
+select * from student where country in ('uk');
+select count(country) from student where country='uk';
+ select * from student where country in ('uk','usa');
+select * from student where per = (select min(per) from student);
+ select * from student where country in (select country from student);
+ alter table student add column id int after rno;
+ alter table student add column id1 int first;
+ 
+ create table orders (order_id int not null,customer_id int primary key auto_increment);
+create table customers (customer_id int not null, constraint fk foreign key(customer_id) references orders(customer_id),customer_name varchar(45) not null);
+
+select orders.order_id,orders.customer_id,customers.customer_name from orders inner join customers on orders.customer_id=customers.customer_id;
+
+select orders.order_id,orders.customer_id,customers.customer_name from orders join customers on orders.customer_id=customers.customer_id;
+
+
+
+
+ try{
+            Statement stmt = con.createStatement();
+            ResultSet rs = stmt.executeQuery("SELECT * FROM doctor");
+            ResultSetMetaData rsmd=rs.getMetaData();
+            int col_count=rsmd.getColumnCount();
+            int row=rs.getRow();
+            String clm_name[]= new String[col_count];
+
+            while (rs.next()) {  // Position the cursor
+                id = rs.getInt(1);
+                name = rs.getString(2);
+                age= rs.getInt(3);
+                d_gender = rs.getString(4);
+                bg = rs.getString(5);
+                number = rs.getString(6);
+                fees= rs.getDouble(7);
+                specialization = rs.getString(8);
+                room_n=rs.getInt(9);
+                tab_m.addRow(new Object[] {id,name,age,d_gender,bg,number,fees,specialization,room_n});
+                i++;
+            }
+
+        }
+        catch(SQLException e){
+            System.out.println("Exception " +e);
+        }
+        if(i<1){
+            JOptionPane.showMessageDialog(null,"No Record Found"," Error",JOptionPane.ERROR_MESSAGE);
+        }
+
+
+
+
+
+  int id = rs.getInt(1);
+                                String med_name = rs.getString(2);
+                                String med_usage = rs.getString(3);
+                                String med_period = rs.getString(4);
+                                int med_price = rs.getInt(5);
+                                int med_Mg = rs.getInt(6);
+                                int med_Quantity = rs.getInt(7);

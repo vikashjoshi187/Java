@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JSP/AjaxExample/src/AjaxExample.iml" filepath="$PROJECT_DIR$/JSP/AjaxExample/src/AjaxExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Desktop Application.iml" filepath="$PROJECT_DIR$/.idea/Desktop Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hospital_Mania 2/Hospital_Mania 2.iml" filepath="$PROJECT_DIR$/Hospital_Mania 2/Hospital_Mania 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSP/AjaxExample/build/build.iml" filepath="$PROJECT_DIR$/JSP/AjaxExample/build/build.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,212 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "name": "(lldb) Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "enter program name, for example ${workspaceFolder}/a.out",
+            "MIMode": "lldb"
+        },
+
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch _error_pattern_11",
+            "request": "launch",
+            "mainClass": "_error_pattern_11",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch _error_pattern_12",
+            "request": "launch",
+            "mainClass": "_error_pattern_12",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch autoboxing",
+            "request": "launch",
+            "mainClass": "autoboxing",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch bitwise_operator",
+            "request": "launch",
+            "mainClass": "bitwise_operator",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch fibonacci_series",
+            "request": "launch",
+            "mainClass": "fibonacci_series",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch forloop",
+            "request": "launch",
+            "mainClass": "forloop",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_1",
+            "request": "launch",
+            "mainClass": "pattern_1",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_10",
+            "request": "launch",
+            "mainClass": "pattern_10",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_13",
+            "request": "launch",
+            "mainClass": "pattern_13",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_14",
+            "request": "launch",
+            "mainClass": "pattern_14",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_15",
+            "request": "launch",
+            "mainClass": "pattern_15",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_16",
+            "request": "launch",
+            "mainClass": "pattern_16",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_17",
+            "request": "launch",
+            "mainClass": "pattern_17",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_18",
+            "request": "launch",
+            "mainClass": "pattern_18",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_19",
+            "request": "launch",
+            "mainClass": "pattern_19",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_2",
+            "request": "launch",
+            "mainClass": "pattern_2",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_20",
+            "request": "launch",
+            "mainClass": "pattern_20",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_3",
+            "request": "launch",
+            "mainClass": "pattern_3",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_4",
+            "request": "launch",
+            "mainClass": "pattern_4",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_5",
+            "request": "launch",
+            "mainClass": "pattern_5",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_6",
+            "request": "launch",
+            "mainClass": "pattern_6",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_7",
+            "request": "launch",
+            "mainClass": "pattern_7",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_8",
+            "request": "launch",
+            "mainClass": "pattern_8",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern_9",
+            "request": "launch",
+            "mainClass": "pattern_9",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        },
+        {
+            "type": "java",
+            "name": "Launch prime_num",
+            "request": "launch",
+            "mainClass": "prime_num",
+            "projectName": "DSA-Love Babbar_3f92eca9"
+        }
+    ]
+}

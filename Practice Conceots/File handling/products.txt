@@ -1,0 +1,5 @@
+Product Id	Name	Price
+	1 	   cooler 	 111.0
+	2 	   fan 	 222.0
+
+Product Maximum price : 222.0

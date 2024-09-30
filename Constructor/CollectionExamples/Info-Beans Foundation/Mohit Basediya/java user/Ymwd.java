@@ -1,0 +1,21 @@
+// program to convert Days in Years,Months,Weeks And Days
+import java.util.Scanner;
+class Ymwd
+{
+    public static void main (String args[])
+    {
+        Scanner sc = new Scanner (System.in);
+        System.out.println("enter number in days : ");
+        int a = sc.nextInt();
+        int Y = a/365;
+        a = a%365;
+        int M = a/30;
+        a = a%30;
+        int W = a/7;
+        int D = a%7;
+        System.out.println("Years : "+Y);
+        System.out.println("Months : "+M);
+        System.out.println("Weeks : "+W);
+        System.out.println("Days : "+D);
+    }
+}
